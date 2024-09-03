@@ -131,11 +131,6 @@ var hotelFuse = new Fuse(HotelsData, {
   includeScore: true,
   threshold: 0.2,
 });
-// var cabFuse = new Fuse(CabsData, {
-//   keys: ["City"],
-//   includeScore: true,
-//   threshold: 0.2
-// });
 const cityNames = CabsData.flatMap(cityData => Object.keys(cityData));
 // console.log(cityNames)
 // const hyderabadKeys = Object.keys(CabsData[0]["Hyderabad"]);
